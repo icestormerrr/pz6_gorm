@@ -1,5 +1,6 @@
 # Практическая работа № 6
 Студент: Юркин В.И.
+
 Группа: ПИМО-01-25
 
 Тема: Использование ORM (GORM). Модели, миграции и связи между таблицами.
@@ -46,6 +47,7 @@ curl -Uri "http://localhost:8080/users" `
 
 ```
 Результат:
+
 ![alt text](docs/image-1.png)
 
 ### 5. Создание заметки
@@ -62,6 +64,7 @@ curl -Uri "http://localhost:8080/notes" `
 
 ```
 Результат:
+
 ![alt text](docs/image-2.png)
 
 ### 6. Получение заметки по ID
@@ -69,6 +72,7 @@ curl -Uri "http://localhost:8080/notes" `
 curl -Uri "http://localhost:8080/notes/1" -Method GET
 ```
 Результат:
+
 ![alt text](docs/image-3.png)
 
 ## Установка
